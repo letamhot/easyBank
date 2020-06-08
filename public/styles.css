@@ -228,6 +228,7 @@ nav.main-nav ul li a {
 .latest-article__title {
   font-size: 1rem;
   margin: 0;
+  width: 75%;
 }
 
 .latest-article__subtitle {
