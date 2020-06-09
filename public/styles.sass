@@ -71,7 +71,6 @@ nav.main-nav
             padding: 1.5rem 0
             margin: 0 1rem
             position: relative
-            color: $darkBlue
             &:hover
                 color: $lightGrayishBlue
                 &::after
@@ -126,7 +125,6 @@ nav.main-nav
         position: absolute
         width: 100%
         height: 100%
-
 .feature
     display: inline-flex
     flex-direction: column
@@ -299,11 +297,28 @@ footer
         .brand-logo
             img
                 height: 16px
-
         ul
-            position: absolute
+            position: fixed
+            top: 70px
+            left: 10vw
+            width: 80vw
+            height: 300px
+            padding: 1.5rem 0
+            margin: auto
             display: none
+            flex-direction: column
+            justify-content: space-around
+            z-index: 1
+            background-color: $white
+            text-align: center
+            li 
+                padding: 1rem
+                margin: auto
+                color: $darkBlue
 
+                a 
+                    color: $darkBlue
+                    font-weight: 400
         .invite
             display: none
 
@@ -329,7 +344,7 @@ footer
         flex-direction: column
         height: auto
         .button-accent
-            margin-left: 40px
+            margin-left: 4rem
         &-info
             position: static
             margin-top: 3rem

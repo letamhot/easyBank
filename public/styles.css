@@ -73,7 +73,6 @@ nav.main-nav ul li {
   padding: 1.5rem 0;
   margin: 0 1rem;
   position: relative;
-  color: #2d314d;
 }
 
 nav.main-nav ul li:hover {
@@ -408,8 +407,32 @@ footer .container::after {
     height: 16px;
   }
   nav.main-nav ul {
-    position: absolute;
+    position: fixed;
+    top: 70px;
+    left: 10vw;
+    width: 80vw;
+    height: 300px;
+    padding: 1.5rem 0;
+    margin: auto;
     display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    z-index: 1;
+    background-color: white;
+    text-align: center;
+  }
+  nav.main-nav ul li {
+    padding: 1rem;
+    margin: auto;
+    color: #2d314d;
+  }
+  nav.main-nav ul li a {
+    color: #2d314d;
+    font-weight: 400;
   }
   nav.main-nav .invite {
     display: none;
@@ -443,7 +466,7 @@ footer .container::after {
     height: auto;
   }
   .banner .button-accent {
-    margin-left: 40px;
+    margin-left: 4rem;
   }
   .banner-info {
     position: static;
