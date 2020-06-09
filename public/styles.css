@@ -12,7 +12,8 @@ section .landing-page-section {
 
 .bg-medium {
   background-color: #f3f4f6;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
 }
 
 .button {
@@ -400,6 +401,7 @@ footer .container::after {
 .btn:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#31d35c), to(#2bb7da));
   background-image: linear-gradient(to left, #31d35c, #2bb7da);
+  background-color: white;
 }
 
 @media screen and (max-width: 375px) {
