@@ -401,7 +401,7 @@ footer .container::after {
 .btn:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#31d35c), to(#2bb7da));
   background-image: linear-gradient(to left, #31d35c, #2bb7da);
-  background-color: white;
+  opacity: .4;
 }
 
 @media screen and (max-width: 375px) {
@@ -468,7 +468,7 @@ footer .container::after {
     height: auto;
   }
   .banner .button-accent {
-    margin-left: 4rem;
+    margin: auto;
   }
   .banner-info {
     position: static;
